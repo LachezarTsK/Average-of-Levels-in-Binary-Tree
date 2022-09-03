@@ -16,8 +16,8 @@ struct TreeNode {
 };
 
 class Solution {
+    
 public:
-
     vector<double> averageOfLevels(TreeNode* root) {
         queue<TreeNode*> queue;
         queue.push(root);
