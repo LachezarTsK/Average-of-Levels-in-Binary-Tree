@@ -31,7 +31,7 @@ public:
             for (int i = queue.size(); i > 0; --i) {
 
                 TreeNode* current = queue.front();
-                queue.front();
+                queue.pop();
 
                 if (current->left != nullptr) {
                     sumCurrentLevel += current->left->val;
